@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+body{
+    font-family: Lexend Deca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+    background: hsl(233, 47%, 7%);
+}
+
+.container{
+    display: flex;
+    width: 1000px;
+    background: hsl(244, 38%, 16%);
+    color: white;
+    height: 60vh;
+    border-radius: 5px;
+}
+
+.left{
+    border-radius: 5px;
+    padding: 50px;
+
+}
+#color-c{
+    color: hsl(277, 64%, 61%);
+}
+p{  
+    font-size: 15px;
+}
+
+.right{
+    border-radius: 5px;
+    background-color: hsl(277, 64%, 61%);
+}
+
+img{
+    opacity: 0.5;
+    height: 390px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 35px; 
+    color: hsl(0, 0%, 100%)  
+}
+
+.des p{
+    font-family: 'Inter', sans-serif;
+    padding-right: 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+        
+}
+.down-menu{
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    padding: 0px;
+}
+
+
+.so{
+
+    padding-right: 30px;
+}
+
+.down-menu p{
+    margin-top: -15px;
+}
+
+h2{
+    color: hsla(0, 0%, 100%, 0.6)
+}
+
+
+@media (max-width: 375px) {
+    
+    
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 90%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .left{
+        text-align: center;
+    }
+    h1{
+        font-size: 25px;
+    }
+
+    .des p{
+        padding: 0px;
+    
+    }
+    .right{
+        height: 250px;
+        background: hsl(277, 64%, 61%);
+ 
+   }
+   img{
+    width: 325px;
+    height: 250px;
+    border-radius: 10px;
+    border-radius: 10px;
+   }
+   .so{
+    padding: 0px;
+   }
+   .down-menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+   }
+}
